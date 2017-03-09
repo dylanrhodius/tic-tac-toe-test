@@ -23,7 +23,15 @@ class App extends Component {
 
   }
   resetBoard() {
-
+    this.setState({
+      gameBoard: [
+        ' ', ' ', ' ',
+        ' ', ' ', ' ',
+        ' ', ' ', ' '
+      ],
+      turn: 'x',
+      winner: null
+    })
   }
   render() {
     return (
