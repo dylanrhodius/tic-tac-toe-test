@@ -20,6 +20,9 @@ class App extends Component {
           <Announcement />
           <ResetButton />
         </div>
+        {this.state.gameBoard.map(function(value, i){
+          <Tile />
+        })}
       </div>
     );
   }
