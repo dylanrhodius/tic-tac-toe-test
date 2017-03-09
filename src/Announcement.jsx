@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Announcement extends Component{
+export default class Announcement extends React.Component{
   render() {
     return (
       <div className='visible'>
