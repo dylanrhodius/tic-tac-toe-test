@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import Announcement from './Announcement';
+import ResetButton from './ResetButton';
+import Tile from './Tile';
+
 
 class App extends Component {
   constructor() {
