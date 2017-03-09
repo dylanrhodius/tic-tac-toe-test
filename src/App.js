@@ -8,6 +8,7 @@ class App extends Component {
         <div className="menu">
           <h1>Tic-Tac-Toe</h1>
           <Announcement />
+          <ResetButton />
         </div>
       </div>
     );
