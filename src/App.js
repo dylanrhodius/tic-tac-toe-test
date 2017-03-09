@@ -22,14 +22,16 @@ class App extends Component {
   updateBoard(loc, player) {
 
   }
+  resetBoard() {
 
+  }
   render() {
     return (
       <div className="container">
         <div className="menu">
           <h1>Tic-Tac-Toe</h1>
           <Announcement winner={this.state.winner}/>
-          <ResetButton />
+          <ResetButton reset={this.resetBoard.bind(this)}/>
         </div>
         {this.state.gameBoard.map(function(value, i){
             return (
